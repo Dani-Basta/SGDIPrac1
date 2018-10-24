@@ -65,7 +65,8 @@ def getCharactersAppearences(sparkObj):
     #Unimos los dataframes resultantes y eliminamos duplicados.
     return characters.join(num_characters, on= "episode_id") \
                          .join(m, on="episode_id") \
-                         .join(f, on= "episode_id") 
+                         .join(f, on= "episode_id") \
+                         .dropDuplicates()
 
 
 if __name__ == "__main__":
