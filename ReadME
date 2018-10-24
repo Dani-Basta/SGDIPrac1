@@ -1,0 +1,16 @@
+
+Autores:
+
+-Gabriel Sellés Salvà
+-Daniel Bastarrica Lacalle
+
+Esta entrega presenta 3 carpetas. Cada una contiene las implementaciones necesarias 
+para realizar cada apartado.
+
+En el ejercicio 3, el apartado 5 se ha implementado en cada apartado anterior (al final de
+la función main).
+
+Para probarlo, tan solo es necesario descomentar la última línea de dicha función.
+
+El fichero Utilities.py del ejercicio 3 contiene funciones y parámetros que se reutilizan en cada apartado y consideramos que era más correcto englobar todos ellos en un fichero en lugar de repetir código.
+
